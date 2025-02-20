@@ -1,0 +1,33 @@
+   a{color:white;}
+      body{
+    background-image: url(fondo.jpeg);
+    background-repeat:no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 10px outset white;
+    color:black;
+  }
+  .imagen{
+    float:left;
+    width: 5%;
+    padding:2%;
+}
+.tia{float:left; width: 10%;}
+  h1{
+    float:left;
+    margin-left:10%;
+    margin-top:10%;
+    width: 12%;
+    color:white;
+
+    
+  }
+    .formulario{float:right; margin-right: 40%; margin-top:9%; border: 5px black solid; padding:1%;background-color: blue;}
+  #miBoton{
+    margin-top:50%;
+    left:85%;
+  }

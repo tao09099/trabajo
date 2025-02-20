@@ -1,0 +1,32 @@
+  a{color:white;}
+      body{
+    background-image: url(iesclara.png);
+    background-repeat:no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border:10px dashed;
+    color:black;
+  }
+  h1{
+    text-align:center;
+    
+  }
+  label{
+    position: relative;
+    left:20%;
+
+  }
+  input{
+    position:relative;
+    left:20%;
+  }
+
+  #miBoton{
+    position:relative;
+    left:85%;
+    margin-bottom:1%;
+  }

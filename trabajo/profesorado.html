@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ies Clara del rey</title>
+    <a href="hola.html">Atras</a>
+    <link rel="stylesheet" href="registrarse.css">
+</head>
+<body>
+    <h1> Profesorado</h1>
+    <form method="post" action="">
+    <label for="nombre">Usuario* </label>
+     <p></p>
+     <input type="text" name="correoelectronico">
+     <p></p>
+     <label for="contraseña">Contraseña*</label>
+     <p></p>
+     <input type="contraseña" name="contraseña">
+     <p></p>
+<button id="miBoton" onclick="cambiarNombre()">Entrar</button>
+
+<script>
+  function cambiarNombre() {
+    var boton = document.getElementById("miBoton");
+    boton.innerHTML = "Dentro";
+  }
+</script>
+
+
+
+</body>
+</html>

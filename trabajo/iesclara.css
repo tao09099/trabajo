@@ -1,0 +1,112 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+    body {
+    margin: 0;
+    padding: 0;
+    background-image: url(claradelrey.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
+    min-height: 100vh;
+}
+    .iimg,img{
+        float:left;
+        width: 20%;
+    }
+    h1{
+        text-align:center;
+        border-style:double;
+            border-color: yellow red purple;
+            border-radius:100% ;
+    }
+    h2{
+        color:blue;
+       
+    }
+    li{
+        color:brown;
+    }
+    a{
+        color:chocolate;
+    }
+    .grupos{
+        
+        margin-top: 5%;
+        border: 4px black;
+
+    }
+    table{
+          float:left;
+          border: 10px solid;
+          margin-left:35%;
+          margin-bottom:1000px;
+
+        
+         
+    }
+    th{
+        
+        text-align: center;
+        color:blueviolet;
+        border: 1px blue solid;
+      
+       
+
+    }
+    td{
+        border: 1px solid blue; 
+        color:red;
+    }
+    .erasmus{
+       margin-left: 80%;
+       width: 90%;
+       text-align: center;
+
+    }
+    .erasmus,h3{
+        margin-right:80%;
+    }
+    .horario{
+      float:left;
+
+    }
+    
+    .horario,h3{
+        text-align: center;
+        color:blue;
+    }
+    .formulario{
+        float:left;
+        position:absolute;
+        margin-top: 20%;
+    }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        li {
+            display: block;
+            margin-right: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: chocolate;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        /* Efecto hover */
+        a:hover {
+            background-color:chartreuse;
+            color: black;
+        }
